@@ -17,14 +17,14 @@ body {
 
 .chi-header {
     color: rgb(134, 114, 95);
-    font-size: 5em;
+    font-size: 3em;
     font-weight: bold;
-
+    padding-top: 1em;
 }
 
 .trip-title {
      color: black;
-     font-size: 6em;
+     font-size: 3em;
 }
 
 #tripadvice{
@@ -32,26 +32,24 @@ body {
     border:1px;
     height: 1px;
     padding-top: 2em;
-    padding-bottom: 2em;
+    padding-bottom: 4em;
 }
 
 
 #plan-list {
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: 600;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #list-title {
   font-family: monospace;
-  font-size: 2em;
-  
+  font-size: 1em;
+  padding-top: 10px;
 }
 
 .places {
     list-style-type: none;
-    
-
 }
 
 .explore-item {
@@ -70,18 +68,93 @@ hr {
     border: rgb(208, 208, 224);
     border-style: dotted;
     background: rgb(231, 239, 245);
-    padding-left: 3em;
-    padding-right: 4em;
-    margin-left: 3em;
-    margin-right: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-bottom: 2em;
+    }
+
+.explore-item {
+        display: grid;
+        grid-template-columns: 2fr 3fr 1fr 0.3fr;
+    }
+
+li img {
+    width: 230px;
+    height: 200px;
+}
+
+@media(min-width:900px) {
+
+    body {
+        padding-right: 3em;
+        padding-left: 3em;
+    }
+
+    li img {
+        width: 300px;
+        height: 250px
+    }
+
+    .trip-list {
+        padding-left: 3em;
+        padding-right: 3em;
+        margin-left: 2em;
+        margin-right: 2em;
+        padding-top: 2em;
+    }
+
+    .plan-list {
+        font-size: 5em;
+    }
+
+    #list-title {
+        font-size: 2em;
+        padding-bottom: 1em;
     }
 
     .explore-item {
         display: grid;
-        grid-template-columns: 6fr 1fr 1fr;
+        grid-template-columns: 4fr 1fr 0.3fr 0.1fr;
+        font-size: 1.7em;
+        font-family: 'Montserrat Alternates', sans-serif;
+        padding-top: 2em;
+        }
+
+    .heart {
+        font-size: 1.5em;
+        padding-top:1px;
+        padding-right: 40px;
     }
 
-li img {
-    width: 300px;
-    height: 250px;
+    .bg-image {
+        background-size: 150em;
+        height: 300px;
+    }
+
+    .chi-header {
+        /* color: rgb(134, 114, 95); */
+        font-size: 5em;
+        padding: 1em;
+    }
+    
+    .trip-title {
+        color: black;
+        font-size: 7em;
+        padding-top: 2em;
+   }
+
+   #tripadvice{
+    font-size: 1.7em;
+    border:1px;
+    height: 1px;
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+
+.more-options {
+    font-size: 2em;
+}
+
 }
