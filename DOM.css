@@ -1,5 +1,6 @@
 body {
     background-color:rgb(230, 230, 202);
+    
     text-align: center;
 
 }
@@ -10,12 +11,12 @@ body {
     background:url(https://images.pexels.com/photos/1823681/pexels-photo-1823681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 110em;
+    background-size: 130em;
     opacity:0.5;
 }
 
 .chi-header {
-    color: whitesmoke;
+    color: rgb(134, 114, 95);
     font-size: 5em;
     font-weight: bold;
 
@@ -27,12 +28,13 @@ body {
 }
 
 #tripadvice{
-    font-size: 1.5em;
+    font-size: 1.7em;
     border:1px;
     height: 1px;
     padding-top: 2em;
     padding-bottom: 2em;
 }
+
 
 #plan-list {
     font-size: 1.5em;
@@ -53,7 +55,7 @@ body {
 }
 
 .explore-item {
-    border: rgb(180, 177, 177);
+    border: rgb(218, 211, 211);
     border-style: ridge;
     padding: 1em;
     
@@ -65,13 +67,21 @@ hr {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));}
 
 .trip-list    {
-    border: rgb(172, 172, 196);
-    border-style: ridge;
-    background: whitesmoke;
+    border: rgb(208, 208, 224);
+    border-style: dotted;
+    background: rgb(231, 239, 245);
     padding-left: 3em;
     padding-right: 4em;
     margin-left: 3em;
     margin-right: 3em;
     }
 
+    .explore-item {
+        display: grid;
+        grid-template-columns: 6fr 1fr 1fr;
+    }
 
+li img {
+    width: 300px;
+    height: 250px;
+}
