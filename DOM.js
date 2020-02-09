@@ -34,7 +34,7 @@ const chiOdd = document.querySelectorAll('li:nth-child(odd)');
 const chiEven = document.querySelectorAll('li:nth-child(even)');
 
 chiOdd.forEach(function (li) {
-    li.style.background ="lightgrey";     
+    li.style.background ="lightgray";     
 });
 chiEven.forEach(function (li) {
     li.style.background ="white";     
@@ -76,6 +76,9 @@ val = vacation.nextElementSibling.nextElementSibling;
 val = vacation.previousElementSibling;
 
 val = vacation.nextElementSibling.nextElementSibling.firstElementChild.className = "Enjoy";
+
+var extra = document.createElement('li');
+extra.style.textcontent = "giordanos";
 
 
 console.log(val);
