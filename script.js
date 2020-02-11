@@ -83,6 +83,39 @@ extra.style.textcontent = "giordanos";
 
 console.log(val);
 
+const newPlace = document.createElement('li');
+
+newPlace.className = 'explore-item';
+
+newPlace.appendChild(document.createTextNode('Art Institute of Chicago'));
+console.log(newPlace);
+
+// add image 
+const newImage = document.createElement('img');
+    
+const newLink = document.createElement('a');
+newLink.setAttribute('href','#');
+newLink.className = 'heart';
+newLink.innerHTML= '<i class="icon-heart-empty"></i>';
+
+const newInfo = document.createElement('a');
+newInfo.setAttribute('href','#');
+newInfo.className= 'class="btn btn-small btn-info';
+newInfo.innerHTML= '<i class="icon-info-sign"></i> Info'
+
+console.log(newLink);
+
+const ul = document.querySelector('ul.places');
+
+ul.appendChild(newPlace);
+newPlace.appendChild(newImage);
+newPlace.appendChild(newLink);
+newPlace.appendChild(newInfo);
+
+
+
+
+
 
 
 
