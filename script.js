@@ -18,27 +18,27 @@ console.log(document.querySelector('#plan-list'));
 console.log(document.querySelector('.chi-header'));
 console.log(document.querySelector('h4'));
 
-document.querySelector('ul li').style.color = "purple";
-document.querySelector('li:nth-child(3)').style.color = "purple";
+// document.querySelector('ul li').style.color = "purple";
+// document.querySelector('li:nth-child(3)').style.color = "purple";
 
 const trip = document.getElementsByClassName('explore-item');
 console.log(trip);
 
-trip[0].style.color= "green";
+// trip[0].style.color= "green";
 
 const tripchi = document.querySelector('.trip-list').getElementsByClassName('explore-item');
 
-tripchi[5].style.color="green";
+// tripchi[5].style.color="green";
 
 const chiOdd = document.querySelectorAll('li:nth-child(odd)');
 const chiEven = document.querySelectorAll('li:nth-child(even)');
 
-chiOdd.forEach(function (li) {
-    li.style.background ="lightgray";     
-});
-chiEven.forEach(function (li) {
-    li.style.background ="white";     
-});
+// chiOdd.forEach(function (li) {
+//     li.style.background ="lightgray";     
+// });
+// chiEven.forEach(function (li) {
+//     li.style.background ="white";     
+// });
 
 
 console.log(chiEven);
@@ -82,5 +82,7 @@ extra.style.textcontent = "giordanos";
 
 
 console.log(val);
+
+
 
 
