@@ -92,6 +92,8 @@ console.log(newPlace);
 
 // add image 
 const newImage = document.createElement('img');
+newImage.setAttribute('src','https://www.ubelarts.com/wp-content/uploads/2019/07/art-institute-chicago.jpg');
+
     
 const newLink = document.createElement('a');
 newLink.setAttribute('href','#');
@@ -111,6 +113,8 @@ ul.appendChild(newPlace);
 newPlace.appendChild(newImage);
 newPlace.appendChild(newLink);
 newPlace.appendChild(newInfo);
+
+
 
 
 
