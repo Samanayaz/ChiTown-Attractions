@@ -114,6 +114,20 @@ newPlace.appendChild(newImage);
 newPlace.appendChild(newLink);
 newPlace.appendChild(newInfo);
 
+// removing 
+const seeMore = document.querySelectorAll('a.more-options');
+seeMore[0].remove();
+console.log(seeMore);
+
+// creating new 'a'
+const newMore= document.createElement('a');
+newMore.className= 'new-more-info';
+newMore.appendChild(document.createTextNode('View More'));
+newMore.setAttribute('color','Maroon');
+newMore.setAttribute('font','2em');
+
+const more= document.querySelector('div.more');
+more.appendChild(newMore);
 
 
 
