@@ -77,8 +77,8 @@ val = vacation.previousElementSibling;
 
 val = vacation.nextElementSibling.nextElementSibling.firstElementChild.className = "Enjoy";
 
-var extra = document.createElement('li');
-extra.style.textcontent = "giordanos";
+// var extra = document.createElement('li');
+// extra.style.textcontent = "giordanos";
 
 
 console.log(val);
@@ -123,11 +123,16 @@ console.log(seeMore);
 const newMore= document.createElement('a');
 newMore.className= 'new-more-info';
 newMore.appendChild(document.createTextNode('View More'));
-newMore.setAttribute('color','Maroon');
-newMore.setAttribute('font','2em');
+newMore.setAttribute('style','font-size:2em;color:maroon');
+newMore.setAttribute('id', 'view-more')
 
 const more= document.querySelector('div.more');
 more.appendChild(newMore);
+
+
+
+
+
 
 
 
